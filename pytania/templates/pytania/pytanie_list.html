@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+</head>
+<body>
+    <ul>
+        {% for pytanie in object_list %}
+            <li>{{ pytanie.tresc }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/pytania/zadaj/">Zadaj pytanie</a>
+</body>
+</html>
