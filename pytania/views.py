@@ -10,5 +10,5 @@ class PytaniaListView(ListView):
 
 class PytanieCreate(CreateView):
     model = Pytanie
-    fields = ['tresc']
+    fields = ['tresc', 'lekcja']
     success_url = '/pytania/'

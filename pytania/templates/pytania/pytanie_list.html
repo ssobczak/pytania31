@@ -7,7 +7,7 @@
 <body>
     <ul>
         {% for pytanie in object_list %}
-            <li>{{ pytanie.tresc }}</li>
+            <li>{{ pytanie.lekcja }} - {{ pytanie.tresc }}</li>
         {% endfor %}
     </ul>
     <a href="/pytania/zadaj/">Zadaj pytanie</a>
